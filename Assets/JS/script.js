@@ -4,9 +4,14 @@ get input from the middle box and save it to local storage.
 get content from local storage and display it when you open the page.
 
 */
+var timeCheck = moment().format('MMMM Do YYYY, h:mm:ss a');
+var timeDisplay = $("#currentDay").html(timeCheck)
+console.log(timeCheck);
 console.log("work day planner started");
 var hourNineDesc = $("#description-9");
 console.log(hourNineDesc);
+var jumboTron = $(".jumbotron");
+jumboTron.append.timeDisplay;
 
 
 $(document).click(function(event){
@@ -67,6 +72,7 @@ $("document").ready(function(){
 
     }
 })
+
 /*
 <div class ="row"> 
 <div id="hour-9" class="col-md-2 btn"><span> 9AM</span></div>
