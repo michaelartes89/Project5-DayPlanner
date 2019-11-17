@@ -6,7 +6,7 @@ The page shows the current date and hour at the top of the screen and has spaces
 <img src="Assets/Images/screenshot.png" alt="screenshot">
 
 # link
-<a href="https://michaelartes89.github.io/Project5-DayPlanner/">
+<a href="https://michaelartes89.github.io/Project5-DayPlanner/"> Click Here for Link to Page</a>
 
 # Developer Story
 Working on this project helped me take some important steps forward in my growth processes as a developer. In contrast to my experience on some of the previous assignments in which I heavily relied on entry-level and generally amatuer behaviors, on this project I was able to engage in more of a pro-style process. I am optimistic that this expereince will be a springboard into more success moving forward. 
