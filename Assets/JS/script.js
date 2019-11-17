@@ -4,6 +4,7 @@ get input from the middle box and save it to local storage.
 get content from local storage and display it when you open the page.
 
 */
+
 var timeCheck = moment().format('MMMM Do YYYY, ha');
 
 
@@ -35,6 +36,7 @@ $("document").ready(function(){
 
         var description = "description-" + h;
         var hour = "hour" + h
+        console.log(hour);
         var ls = localStorage.getItem(description)
         var desc_input = $("<input>").attr("id", description).addClass("col");
         var save_input = $("<input>").attr("id","save-" +h).addClass("save");
@@ -74,6 +76,11 @@ $("document").ready(function(){
 
     }
 })
+
+var statusTimer = moment().hour();
+console.log(statusTimer);
+
+
 
 /*
 <div class ="row"> 
