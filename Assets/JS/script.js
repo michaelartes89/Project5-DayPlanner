@@ -76,13 +76,13 @@ $("document").ready(function(){
 
     }
 })
-
+//this is where I started working on adding the different colors to the timeblocks based on the current time
 var statusTimer = moment().hour();
 console.log(statusTimer);
 
 
 
-/*
+/* 
 <div class ="row"> 
 <div id="hour-9" class="col-md-2 btn"><span> 9AM</span></div>
 <div class="col-md-8 btn"><input id="description-9" class ="col" type="text"></input></div>
