@@ -5,6 +5,8 @@ get content from local storage and display it when you open the page.
 
 */
 
+// lines 10-19 add the current time to the display at the top of the page
+
 var timeCheck = moment().format('MMMM Do YYYY, ha');
 
 
