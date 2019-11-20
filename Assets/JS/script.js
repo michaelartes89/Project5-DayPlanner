@@ -1,4 +1,4 @@
-/*
+/* (Initial psudeocode for project)
 get input from the middle box and save it to local storage.
 
 get content from local storage and display it when you open the page.
